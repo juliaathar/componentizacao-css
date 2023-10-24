@@ -1,20 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Bloco (Botão) */
 .botao {
-    background-color: #0077cc;
-    color: #fff;
+    width: 100px;
+    background-color: #0077CC;
+    color: #FFFFFF;
     padding: 10px 20px;
     border: none;
+    border-radius: 30px;
     cursor: pointer;
   }
   
   /* Modificador (Hover) */
   .botao--hover:hover {
-    background-color: #005599;
+    background-color: #082b47;
   }
   
   /* Modificador (Desativado) */
   .botao--desativado {
-    background-color: #ccc;
+    background-color: #CCCCCC;
     cursor: not-allowed;
   }
   
+  .botoes{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+  }
