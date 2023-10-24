@@ -1,0 +1,20 @@
+/* Bloco (Botão) */
+.botao {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Modificador (Hover) */
+  .botao--hover:hover {
+    background-color: #005599;
+  }
+  
+  /* Modificador (Desativado) */
+  .botao--desativado {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
